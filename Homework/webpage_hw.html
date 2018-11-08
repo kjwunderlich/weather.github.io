@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Visualizations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-brand">
+            <a href="webpage_hw.html">Latitude</a>
+            </div>
+        <a href="comparison_page.html">Comparison</a>
+        <a href="data_page.html">Data</a>
+            <div class="dropdown">
+                <button class="dropbtn">Plots
+                <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                <a href="maxtemp_page.html">Max Temp</a>
+                <a href="humidity_page.html">Humidity</a>
+                <a href="cloudiness_page.html">Cloudiness</a>
+                <a href="windspeed_page.html">Wind Speed</a>
+                </div>
+            </div>
+    </div>
+        <div class = "row">
+        <div class= "column side">
+        <div class="boxed">
+        <h1>Summary: Latitude vs. X</h1>
+        <hr>
+        <a href="windspeed_page.html">
+            <img id="main_image", src="Resources/assets/images/Fig4.png" alt="Wind Speed">
+            </a>
+        <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset of over 500 cities.</p>
+        <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors looked at include temperature, cloudiness, wind speed and humidity. This site provides the source  data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+        </div>
+        </div>
+
+        <div class="column middle">
+        <div id="viz_images">
+        <div class="boxed">
+        <h3>Visualizations</h3>
+        <hr>
+        <a href="maxtemp_page.html">
+        <img src="Resources/assets/images/Fig1.png" alt="Max Temp">
+        </a>
+        <a href="humidity_page.html">
+        <img src="Resources/assets/images/Fig2.png" alt="Humidity">
+        </a>
+        <a href="cloudiness_page.html">
+        <img src="Resources/assets/images/Fig3.png" alt="Cloudiness">
+        </a>
+        <a href="windspeed_page.html">
+        <img src="Resources/assets/images/Fig4.png" alt="Wind Speed">
+        </a>
+        </div>
+        </div>
+        </div>
+</body>
+</html>
